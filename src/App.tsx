@@ -765,7 +765,6 @@ const Footer = () => (
       <div className="pt-12 border-t border-border-default flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-2">
           <EQXLogo className="w-8 h-8 text-accent-primary" />
-          <span className="font-display font-bold text-xl tracking-tight">EQX</span>
         </div>
         <div className="text-text-secondary text-sm">
           Copyright 2026 EQX. All rights reserved.
