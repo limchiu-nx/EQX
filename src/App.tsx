@@ -668,7 +668,7 @@ const Roadmap = () => (
           {[
             { year: "2024", title: "DatoDurian Launch", desc: "$3.35M raised. 300+ shareholders. 4 markets." },
             { year: "2025", title: "EQX Platform MVP", desc: "Labuan FSA licensing. First dividend delivered." },
-            { year: "2026", title: "BNB Chain Deployment", desc: "3 to 5 new brand listings. HK Web3 Festival showcase." },
+            { year: "2026", title: "BNB Chain Deployment", desc: "20 project onboarded with min revenue of 1 million each" },
             { year: "2027+", title: "Multi-chain Expansion", desc: "AI-powered platform. Education and consulting vertical." }
           ].map((item, i) => (
             <div key={i} className={`relative flex items-center ${i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
