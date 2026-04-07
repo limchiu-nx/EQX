@@ -342,8 +342,8 @@ const Problem = () => (
           <FadeIn delay={0.1}>
             <div className="card-base p-6 flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-lg bg-background-hover flex items-center justify-center overflow-hidden">
-                  <img src="/images/icon-grab.png" alt="Grab" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                <div className="w-12 h-12 rounded-lg bg-background-hover flex items-center justify-center overflow-hidden p-2">
+                  <img src="https://i.imgur.com/AsGzzmr.png" alt="Grab" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
                 </div>
                 <span className="font-semibold">Grab Rewards</span>
               </div>
@@ -353,8 +353,8 @@ const Problem = () => (
           <FadeIn delay={0.2}>
             <div className="card-base p-6 flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-lg bg-background-hover flex items-center justify-center overflow-hidden">
-                  <img src="/images/icon-shopee.png" alt="Shopee" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                <div className="w-12 h-12 rounded-lg bg-background-hover flex items-center justify-center overflow-hidden p-2">
+                  <img src="https://i.imgur.com/a4gUMEV.png" alt="Shopee" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
                 </div>
                 <span className="font-semibold">Shopee Coins</span>
               </div>
@@ -364,8 +364,8 @@ const Problem = () => (
           <FadeIn delay={0.3}>
             <div className="card-base p-6 flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-lg bg-background-hover flex items-center justify-center overflow-hidden">
-                  <img src="/images/icon-tealive.png" alt="Tealive" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                <div className="w-12 h-12 rounded-lg bg-background-hover flex items-center justify-center overflow-hidden p-2">
+                  <img src="https://i.imgur.com/CGrgRBk.png" alt="Tealive" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
                 </div>
                 <span className="font-semibold">Tealive Points</span>
               </div>
@@ -441,7 +441,7 @@ const Proof = () => (
           <div className="relative">
             <div className="absolute inset-0 bg-accent-primary/30 blur-[80px] rounded-full"></div>
             <img 
-              src="/images/datodurian-banner.png" 
+              src="https://i.imgur.com/3vw5HwS.png" 
               alt="DatoDurian Product" 
               className="relative z-10 rounded-2xl shadow-2xl border border-border-default"
               referrerPolicy="no-referrer"
@@ -615,19 +615,19 @@ const Team = () => (
             name: "Bobby Sim",
             role: "Co-Founder",
             desc: "10+ years financial services. Former COO at RSG (192 podium finishes, 7-figure revenue). Built DatoDurian from zero to $3.35M across 4 markets.",
-            img: "/images/bobby.jpg"
+            img: "https://framerusercontent.com/images/cMaTWOsxwQksLthYV2Ovnvov5R4.png"
           },
           {
             name: "Calvin Ng",
             role: "Chairman",
             desc: "GP at Plutus VC ($400M+ fund). Co-founded Mantra. Former VP at CITIC Pacific. 200+ Web3 investments.",
-            img: "/images/calvin.jpg"
+            img: "https://framerusercontent.com/images/a7DegkBSTFiMviNyIpg2HKIZ5c.png"
           },
           {
             name: "Rishen Naidoo",
             role: "VP Finance",
             desc: "Oxford Brookes. 8+ years group-level finance across fintech, pharma, agriculture. Labuan FSA compliance for EQX.",
-            img: "/images/rishen.jpg"
+            img: "https://framerusercontent.com/images/XvYIvv26z8Fse98huWWyovDfdak.png"
           }
         ].map((member, i) => (
           <div key={i}>
