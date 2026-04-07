@@ -767,7 +767,7 @@ const Footer = () => (
           <EQXLogo className="w-8 h-8 text-accent-primary" />
         </div>
         <div className="text-text-secondary text-sm">
-          Copyright 2026 EQX. All rights reserved.
+          Copyright 2026 EQX. All rights reserved Version3.
         </div>
         <div className="flex items-center gap-4">
           <div className="px-3 py-1 rounded bg-background-card border border-border-default text-[10px] font-bold text-text-secondary uppercase tracking-widest">
